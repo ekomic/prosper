@@ -7,3 +7,26 @@
 article {
     text-align: center;
 }
+
+header{
+    background: #000;
+    padding: 2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    text-decoration: none;
+}
+
+a{
+
+}
