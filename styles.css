@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,200;0,300,500;1,100&display=swap');
 
 * {
     margin: 0;
@@ -6,55 +6,66 @@
     box-sizing: border-box;
 }
 
-body{
+
+
+body, html{
     font-family: 'Poppins', sans-serif;
-
+    background-color: #111;
 }
 
-article {
-    text-align: center;
-}
 
 header{
-    background:rgb(17, 17, 17);
-    padding: 0.4rem;
+    width: 100%;
+    padding: 1.5rem;
+    background:rgb(17, 17, 17, 0.99);
+    position: fixed;
+    box-shadow: 0 12px 25px #0003;
 }
 
 nav{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
+    justify-items: center;
+}
 
+.brand{
+    display: flex;
+    align-items: center;
+   
+}
+
+.brand > .nav-brand{
+    margin-left: 0.5rem;
 }
 
 nav .nav-brand{
-    text-align: none;
     color: #fff;
-    font-size: 1.7rem;
-    font-weight: 600;
+    font-size: 1.67rem;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .nav-logo{
-    width: 5em;
-    margin-right:-6rem;
+    width: 2.8em;
 }
 
 ul{
     list-style: none;
     display: flex;
-
+    margin-right: 2rem;
 }
 
 li{
     text-decoration: none;
-    padding: 0.8rem;
+    margin-right: 2.4rem;
+    
 }
 
 .nav-items{
 text-decoration: none;
 color: rgb(255, 255, 255, 0.5);
-font-size: 1rem;
+font-size: 1.05rem;
 font-weight: 600;
 }
 
@@ -65,6 +76,8 @@ font-weight: 600;
 
 .header-icons{
     display: flex;
+    margin-right: 2rem;
+
 }
 
 i.fa{
@@ -75,4 +88,21 @@ i.fa{
 
 i.fa:hover{
     color: rgb(255, 255, 255, 0.78);
+}
+
+
+
+/* RESPONSIVENESS */
+
+@media( max-width: 960px) {
+    ul{
+        display: none;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        justify-items: center;
+    }
 }
