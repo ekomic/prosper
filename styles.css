@@ -93,7 +93,7 @@ i.fa:hover{
 /* MAIN BODY STYLES */
 
 .pulse-body{
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -110,18 +110,63 @@ i.fa:hover{
     padding-top: 8rem;
 }
 
+.testnet-header{
+    font-size: 2rem;
+}
+
 .testnet-details{
-    margin-top: 1rem;
+    margin: 1rem 2.8rem;
     text-align: left;
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 1.8rem;
+    font-size: 1.07rem;
+    font-weight: 500;
 }
 
 .testnet-details ~ p{
     text-align: left;
-    padding: 0 1.8rem 0 1.8rem;
+    margin: 1rem 2.8rem 0.4rem 2.8rem;
+    font-size: 1.07rem;
+}
 
+.testnet-card{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+    width: 30rem;
+    background: rgba(170, 163, 163, 0.087);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.card-body{
+    text-align: left;
+}
+.net{
+    padding: 1.3rem;
+}
+
+.net-name{
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+
+}
+
+.net-text{
+    margin-top: 2rem;
+    line-height: 1.2;
+    font-size: 1.1rem;
+}
+
+.net-link{
+    color: rgb(100, 100, 255);
+    margin-top: 2rem;
+    line-height: 1.2;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.net-link:hover{
+    color: rgb(109, 206, 245);
 }
 
 /* RESPONSIVENESS */
