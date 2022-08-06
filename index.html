@@ -1,29 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://use.fontawesome.com/1c7a1c7020.js"></script>
+    <link
+      rel="stylesheet"
+      href="styles.css/to/font-awesome/css/font-awesome.min.css"
+    />
     <title>Prosper site</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">DeFi</a></li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <div class="brand">
+          <img class="nav-logo" src="./img/logo.png" alt="" />
+          <a href="" class="nav-brand">PulseChain</a>
+        </div>
+        <ul class="">
+          <li><a class="nav-items" href="#">Sacrifice</a></li>
+          <li><a class="nav-items" href="#">Goals</a></li>
+          <li><a class="nav-items" href="#">Bridging</a></li>
+          <li><a class="nav-items" href="#">Trading</a></li>
+          <li><a class="nav-items" href="#">Nomenclature</a></li>
+        </ul>
+        <span class="header-icons">
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-telegram"></i>
+        </span>
+      </nav>
     </header>
-    
-    <article>
-        <h1>This is Testing Website.</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ex exercitationem a 
-            beatae, vero corporis veritatis. Fuga tempore numquam vel magnam ut! Vitae porro mole
-            stias molestiae? Quibusdam dolorem aliquam nam?</p>
-    </article>
-</body>
+
+    <div class="pulse-body">
+      <main class="testnet-container">
+        <h1 class="testnet-header">The Pulse Testnet is live.</h1>
+        <p class="testnet-details">
+          Currently the second version of the PulseChain Testnet is live with
+          validator rotation, registration, and staking. You can connect
+          MetaMask now to view a copy of all of your ERC20 Tokens.
+
+          <p>
+            To connect to the Testnet open MetaMask and click the Networks
+            dropdown. Select "Custom Network". Now enter the following
+            information:
+          </p>
+        </p>
+        
+        <div class="testnet-card">
+          <div class="card-body">
+            <div class="net">
+              <h3 class="net-name">Network Name:</h3>
+              <span class="net-text">PulseChain Testnet</span>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">New RPC URL:</h3>
+              <span class="net-text">https://rpc.v2b.testnet.pulsechain.com</span>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Chain ID:</h3>
+              <span class="net-text">941</span>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Currency Symbol:</h3>
+              <span class="net-text">tPLS</span>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Faucet:</h3>
+              <a class="net-link">https://faucet.v2b.testnet.pulsechain.com
+              </a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Block Explorer:</h3>
+              <a class="net-link">https://scan.v2b.testnet.pulsechain.com</a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Staking:</h3>
+              <a class="net-link">https://stake.v2b.testnet.pulsechain.com
+              </a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Bridge:</h3>
+              <a class="net-link">https://pulseramp.com</a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Trading:</h3>
+              <a class="net-link">https://app.v2b.testnet.pulsex.com/</a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Docs:</h3>
+              <a class="net-link">https://gitlab.com/pulsechaincom/pulsechain-testnet
+              </a>
+            </div>
+
+            <div class="net">
+              <h3 class="net-name">Sacrifice balance checker:</h3>
+              <a class="net-link">https://pulsechain-sacrifice-checker.vercel.app/</a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="section">
+       
+      </div>
+    </div>
+  </body>
 </html>
