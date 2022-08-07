@@ -93,7 +93,7 @@ i.fa:hover{
 /* MAIN BODY STYLES */
 
 .pulse-body{
-    width: 55%;
+    width: 66%;
     margin: 0 auto;
 }
 
@@ -119,19 +119,21 @@ i.fa:hover{
     text-align: left;
     font-size: 1.07rem;
     font-weight: 500;
+    line-height: 1.4;
 }
 
 .testnet-details ~ p{
     text-align: left;
     margin: 1rem 2.8rem 0.4rem 2.8rem;
     font-size: 1.07rem;
+    line-height: 1.4;
 }
 
 .testnet-card{
     display: flex;
     justify-content: flex-start;
     margin-top: 2rem;
-    width: 30rem;
+    width: 35rem;
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -181,5 +183,79 @@ i.fa:hover{
         justify-content: space-between;
         align-items: center;
         justify-items: center;
+    }
+}
+
+
+
+@media( max-width: 900px){
+    .pulse-body{
+        width: 79%;
+        margin: 0 auto;
+    }
+    
+
+    .testnet-card{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        width: 36.2rem;
+    }
+}
+
+
+@media( max-width: 768px){
+    .pulse-body{
+        width: 84%;
+        margin: 0 auto;
+    }
+    
+
+    .testnet-card{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        width: 33.2rem;
+    }
+}
+
+@media (max-width: 648px){
+    .pulse-body{
+       width: 100%;
+       background: none;
+    }
+
+    .testnet-container{
+        background: none;
+        width: none;
+    }
+    
+    .testnet-details{
+        margin: 1rem 2.8rem;
+    }
+    
+    .testnet-details ~ p{
+        margin: 1rem 2.8rem 0.4rem 2.8rem;
+    }
+
+    .testnet-card{
+        width: 33.2rem;
+    }
+}
+
+@media (max-width: 580px){
+    .pulse-body{
+       width: 100%;
+       background: none;
+    }
+
+    .testnet-container{
+        background: none;
+        width: none;
+    }
+    
+
+    .testnet-card{
+        width: 30rem;
     }
 }
