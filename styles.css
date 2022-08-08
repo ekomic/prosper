@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,200;0,300,500;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,200;0,300;1,100&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +8,15 @@
 
 
 body, html{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', Sans-serif;
+    font-weight: 400;
     background-color: #111;
 }
 
 
 header{
     width: 100%;
-    padding: 1.5rem;
+    padding: 0.7rem;
     background:rgb(17, 17, 17, 0.99);
     position: fixed;
     box-shadow: 0 12px 25px #0003;
@@ -39,11 +39,12 @@ nav{
     margin-left: 0.5rem;
 }
 
-nav .nav-brand{
+.nav-brand{
     color: #fff;
-    font-size: 1.67rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-decoration: none;
+    letter-spacing: 1.2px;
 }
 
 .nav-logo{
@@ -53,19 +54,19 @@ nav .nav-brand{
 ul{
     list-style: none;
     display: flex;
-    margin-right: 2rem;
+    margin-right: 4rem;
 }
 
 li{
     text-decoration: none;
-    margin-right: 2.4rem;
+    margin-right: 2.3rem;
     
 }
 
 .nav-items{
 text-decoration: none;
 color: rgb(255, 255, 255, 0.5);
-font-size: 1.05rem;
+font-size: 0.987rem;
 font-weight: 600;
 }
 
@@ -76,12 +77,11 @@ font-weight: 600;
 
 .header-icons{
     display: flex;
-    margin-right: 2rem;
 }
 
 i.fa{
     color: rgb(255, 255, 255, 0.5);
-    font-size: 1.8em;
+    font-size: 1.7em;
     margin: 1rem;
 }
 
@@ -101,47 +101,49 @@ i.fa:hover{
     background-color: rgba(34, 34, 34, 0.333);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-    color: #fff;
+    color: #ffffff;
+    letter-spacing: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 8rem;
+    padding-top: 5rem;
 }
 
-.testnet-header{
+.testnet-header h1{
     font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .testnet-details{
-    margin: 1rem 2.8rem;
+    margin: 1rem 3rem;
     text-align: left;
-    font-size: 1.07rem;
-    font-weight: 500;
+    font-size: 0.988rem;
+    font-weight: 400;
     line-height: 1.4;
 }
 
 .testnet-details2{
-    /* margin-top: 1.4rem; */
-    padding: 1rem 0.5rem 0.4rem 0.5rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
     text-align: left;
     font-size: 2rem;
     font-weight: 500;
-    line-height: 1.4;
+    /* line-height: 1.4; */
 }
 
 .testnet-details ~ p{
+    margin: 1rem 3rem;
     text-align: left;
-    margin: 0rem 2.8rem 0.4rem 2.8rem;
-    font-size: 1.07rem;
+    font-size: 0.988rem;
     line-height: 1.5;
 }
 
 .testnet-card{
     display: flex;
     justify-content: flex-start;
-    margin-top: 2rem;
+    margin-top: 1.7rem;
     margin-bottom: 2rem;
     width: 35rem;
     background: rgba(170, 163, 163, 0.087);
@@ -157,8 +159,7 @@ i.fa:hover{
 }
 
 .net-name{
-    font-size: 1.1rem;
-    font-weight: 400;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
 
 }
@@ -166,14 +167,14 @@ i.fa:hover{
 .net-text{
     margin-top: 2rem;
     line-height: 1.2;
-    font-size: 1.1rem;
+    font-size: 0.989rem;
 }
 
 .net-link{
     color: rgb(100, 100, 255);
     margin-top: 2rem;
     line-height: 1.2;
-    font-size: 1.1rem;
+    font-size: 0.989rem;
     cursor: pointer;
     text-decoration: none;
 }
