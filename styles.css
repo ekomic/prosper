@@ -122,17 +122,27 @@ i.fa:hover{
     line-height: 1.4;
 }
 
+.testnet-details2{
+    /* margin-top: 1.4rem; */
+    padding: 1rem 0.5rem 0.4rem 0.5rem;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
 .testnet-details ~ p{
     text-align: left;
-    margin: 1rem 2.8rem 0.4rem 2.8rem;
+    margin: 0rem 2.8rem 0.4rem 2.8rem;
     font-size: 1.07rem;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .testnet-card{
     display: flex;
     justify-content: flex-start;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     width: 35rem;
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
@@ -165,6 +175,15 @@ i.fa:hover{
     line-height: 1.2;
     font-size: 1.1rem;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.link-green{
+    color: rgb(79, 235, 79);
+}
+
+.link-green:hover{
+    text-decoration: none;
 }
 
 .net-link:hover{
