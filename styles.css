@@ -191,6 +191,36 @@ i.fa:hover{
     color: rgb(109, 206, 245);
 }
 
+
+/* SACRIFICE SECTION */
+
+
+.sacrifice-container{
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+    background: rgba(170, 163, 163, 0.087);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sacrifice-header{
+    margin: 0.987rem;
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.sacrifice-details{
+    margin: 1rem 3rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
 /* RESPONSIVENESS */
 
 @media( max-width: 960px) {
@@ -221,6 +251,10 @@ i.fa:hover{
         margin-top: 2rem;
         width: 36.2rem;
     }
+
+    .sacrifice-container{
+        width: 79%;
+    }
 }
 
 
@@ -237,6 +271,12 @@ i.fa:hover{
         margin-top: 2rem;
         width: 33.2rem;
     }
+
+    .sacrifice-container{
+        width: 84%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 648px){
@@ -245,9 +285,17 @@ i.fa:hover{
        background: none;
     }
 
+    .sacrifice-container{
+        width: 100%;
+        background: none;
+        margin-top: 5rem;
+        box-shadow: none;
+    }
+
     .testnet-container{
         background: none;
         width: none;
+        box-shadow: none;
     }
     
     .testnet-details{
