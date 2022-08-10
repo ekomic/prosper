@@ -209,7 +209,7 @@ i.fa:hover{
 }
 
 .sacrifice-header{
-    margin: 1rem;
+    margin: 0.987rem;
     color: #fff;
     font-size: 2.1rem;
 }
@@ -251,6 +251,10 @@ i.fa:hover{
         margin-top: 2rem;
         width: 36.2rem;
     }
+
+    .sacrifice-container{
+        width: 79%;
+    }
 }
 
 
@@ -267,6 +271,12 @@ i.fa:hover{
         margin-top: 2rem;
         width: 33.2rem;
     }
+
+    .sacrifice-container{
+        width: 84%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
 }
 
 @media (max-width: 648px){
@@ -275,9 +285,17 @@ i.fa:hover{
        background: none;
     }
 
+    .sacrifice-container{
+        width: 100%;
+        background: none;
+        margin-top: 5rem;
+        box-shadow: none;
+    }
+
     .testnet-container{
         background: none;
         width: none;
+        box-shadow: none;
     }
     
     .testnet-details{
