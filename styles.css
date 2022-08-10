@@ -118,7 +118,7 @@ i.fa:hover{
 }
 
 .testnet-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.988rem;
     font-weight: 400;
@@ -129,11 +129,11 @@ i.fa:hover{
     padding: 0rem 0.5rem 0rem 0.5rem;
     text-align: left;
     font-size: 0.988rem;
-    font-weight: 500;
+    line-height: 1.5;
 }
 
 .testnet-details ~ p{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.988rem;
     line-height: 1.5;
@@ -215,7 +215,7 @@ i.fa:hover{
 
 .sacrifice-details{
     margin: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
 }
@@ -259,7 +259,7 @@ i.fa:hover{
 
 @media( max-width: 768px){
     .pulse-body{
-        width: 81%;
+        width: 79%;
         margin: 0 auto;
     }
     
@@ -272,7 +272,7 @@ i.fa:hover{
     }
 
     .sacrifice-container{
-        width: 81%;
+        width: 79%;
         margin: 0 auto;
         margin-top: 2rem;
     }
@@ -335,7 +335,7 @@ i.fa:hover{
     }
 
     .testnet-card{
-        width: 18rem;
+        width: 28rem;
     }
 
     .net-link{
