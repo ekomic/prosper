@@ -191,6 +191,36 @@ i.fa:hover{
     color: rgb(109, 206, 245);
 }
 
+
+/* SACRIFICE SECTION */
+
+
+.sacrifice-container{
+    width: 66%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+    background: rgba(170, 163, 163, 0.087);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.sacrifice-header{
+    margin: 1rem;
+    color: #fff;
+    font-size: 2.1rem;
+}
+
+.sacrifice-details{
+    margin: 1rem 3rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+}
+
 /* RESPONSIVENESS */
 
 @media( max-width: 960px) {
