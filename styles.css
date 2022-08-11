@@ -118,7 +118,7 @@ i.fa:hover{
 }
 
 .testnet-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.988rem;
     font-weight: 400;
@@ -128,13 +128,12 @@ i.fa:hover{
 .testnet-details2{
     padding: 0rem 0.5rem 0rem 0.5rem;
     text-align: left;
-    font-size: 2rem;
-    font-weight: 500;
-    /* line-height: 1.4; */
+    font-size: 0.988rem;
+    line-height: 1.5;
 }
 
 .testnet-details ~ p{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.988rem;
     line-height: 1.5;
@@ -216,7 +215,7 @@ i.fa:hover{
 
 .sacrifice-details{
     margin: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
 }
@@ -260,7 +259,7 @@ i.fa:hover{
 
 @media( max-width: 768px){
     .pulse-body{
-        width: 84%;
+        width: 79%;
         margin: 0 auto;
     }
     
@@ -273,7 +272,7 @@ i.fa:hover{
     }
 
     .sacrifice-container{
-        width: 84%;
+        width: 79%;
         margin: 0 auto;
         margin-top: 2rem;
     }
@@ -326,4 +325,62 @@ i.fa:hover{
     .testnet-card{
         width: 30rem;
     }
+}
+
+
+@media (max-width: 579px){
+
+    .header{
+        position: fixed;
+    }
+
+    .testnet-card{
+        width: 28rem;
+    }
+
+    .net-link{
+        width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 478px){
+
+   
+    .testnet-card{
+        width: 21rem;
+    }
+
+    .net-link, .net-text{
+        font-size: 0.83rem;
+    }
+
+    .testnet-details2{
+        padding: 0rem 0.001rem 0rem 0.001rem;
+    }
+
+    .sacrifice-details{
+    margin: 1rem 2.3rem 1rem 2.3rem;
+    }
+}
+
+@media (max-width: 360px){
+    .testnet-card{
+        width: 20rem;
+    }
+
+    .net-name{
+        font-size: 0.84rem;
+    }
+
+    .net-link, .net-text{
+        font-size: 0.77rem;
+    }
+
+    .testnet-details2, .sacrifice-details{
+        padding: 0rem 0.001rem 0rem 0.001rem;
+    }
+
 }
