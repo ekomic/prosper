@@ -93,7 +93,7 @@ i.fa:hover{
 /* MAIN BODY STYLES */
 
 .pulse-body{
-    width: 66%;
+    width: 58%;
     margin: 0 auto;
 }
 
@@ -144,7 +144,7 @@ i.fa:hover{
     justify-content: flex-start;
     margin-top: 1.7rem;
     margin-bottom: 2rem;
-    width: 35rem;
+    width: 28rem;
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -195,7 +195,7 @@ i.fa:hover{
 
 
 .sacrifice-container{
-    width: 66%;
+    width: 58%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -233,11 +233,33 @@ i.fa:hover{
         align-items: center;
         justify-items: center;
     }
+
+    .pulse-body{
+        width: 76%;
+        margin: 0 auto;
+    }
+    
+
+    .testnet-card{
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2rem;
+        width: 37.2rem;
+    }
+
+
+    .sacrifice-container{
+        width: 76%;
+    }
+
+    .sacrifice-details{
+        margin: 1rem 3.5rem 1rem 3.5rem;
+    }
 }
 
 
 
-@media( max-width: 900px){
+@media( max-width: 898px){
     .pulse-body{
         width: 79%;
         margin: 0 auto;
@@ -248,16 +270,21 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 36.2rem;
+        width: 37.2rem;
     }
+
 
     .sacrifice-container{
         width: 79%;
     }
+
+    .sacrifice-details{
+        margin: 1rem 3.5rem 1rem 3.5rem;
+    }
 }
 
 
-@media( max-width: 768px){
+@media( max-width: 760px){
     .pulse-body{
         width: 79%;
         margin: 0 auto;
@@ -268,13 +295,22 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 33.2rem;
+        width: 30.9rem;
+    }
+
+    .testnet-details2{
+        margin: 1rem 2.8rem 1rem 2.8rem;
     }
 
     .sacrifice-container{
         width: 79%;
         margin: 0 auto;
         margin-top: 2rem;
+    }
+
+    .sacrifice-details{
+        margin: 1rem 3.8rem 0.4rem 3.8rem;
+
     }
 }
 
@@ -305,6 +341,10 @@ i.fa:hover{
         margin: 1rem 2.8rem 0.4rem 2.8rem;
     }
 
+    .net-link, .net-text{
+        word-break: break-all;
+    }
+
     .testnet-card{
         width: 33.2rem;
     }
@@ -316,59 +356,62 @@ i.fa:hover{
        background: none;
     }
 
+    .testnet-header{
+        word-break: break-all;
+    }
+
     .testnet-container{
         background: none;
         width: none;
     }
     
-
+    .net-link, .net-text{
+        word-break: break-all;
+    }
     .testnet-card{
         width: 30rem;
     }
 }
 
 
-@media (max-width: 579px){
-
-    .header{
-        position: fixed;
-    }
-
-    .testnet-card{
-        width: 28rem;
-    }
-
-    .net-link{
-        width: 100%;
-    }
-
-
-}
-
 
 @media (max-width: 478px){
 
    
     .testnet-card{
-        width: 21rem;
+        width: 20rem;
+    }
+
+    .testnet-header{
+        word-break: break-all;
     }
 
     .net-link, .net-text{
-        font-size: 0.83rem;
+        font-size: 0.93rem;
+        word-break: break-all;
+    }
+
+    .testnet-details, .testnet-details ~ p{
+        padding: 0rem 0.5rem 0rem 0.5rem;
+
     }
 
     .testnet-details2{
-        padding: 0rem 0.001rem 0rem 0.001rem;
+        padding: 0rem 0.5rem 0rem 0.5rem;
     }
 
     .sacrifice-details{
-    margin: 1rem 2.3rem 1rem 2.3rem;
+    margin: 1rem 3.2rem 1rem 3.2rem;
     }
 }
 
 @media (max-width: 360px){
     .testnet-card{
-        width: 20rem;
+        width: 17rem;
+    }
+
+    .testnet-header{
+        word-break: break-all;
     }
 
     .net-name{
@@ -377,7 +420,9 @@ i.fa:hover{
 
     .net-link, .net-text{
         font-size: 0.77rem;
+        word-break: break-all;
     }
+
 
     .testnet-details2, .sacrifice-details{
         padding: 0rem 0.001rem 0rem 0.001rem;
