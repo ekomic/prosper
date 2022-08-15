@@ -218,6 +218,63 @@ i.fa:hover{
     font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
+    line-height: 1.5;
+}
+
+
+/* TESTIMONIAL STYLES */
+
+.testimonial-container{
+    width: 58%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+    background: rgba(170, 163, 163, 0.087);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-header{
+    margin: 0.987rem;
+    color: #fff;
+    font-size: 2.1rem;
+    font-family: inherit;
+}
+
+.testimonial-details{
+    margin: 1rem 3rem;
+    font-size: 0.989rem;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.video-container{
+    width: 480px;
+    height: 300px;
+    margin-bottom: 1.4rem;
+}
+
+.testimonial-vid{
+   position: relative;
+   padding-top: 25px;
+   height: 0;
+   border-radius: 0.8rem;
+}
+
+.testimonial-vid iframe{
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+   border-radius: 0.8rem;
+
 }
 
 /* RESPONSIVENESS */
@@ -251,8 +308,16 @@ i.fa:hover{
     .sacrifice-container{
         width: 76%;
     }
+    
+    .testimonial-container{
+        width: 76%;
+    }
 
     .sacrifice-details{
+        margin: 1rem 3.5rem 1rem 3.5rem;
+    }
+
+    .testimonial-details{
         margin: 1rem 3.5rem 1rem 3.5rem;
     }
 }
@@ -278,7 +343,15 @@ i.fa:hover{
         width: 79%;
     }
 
+    .testimonial-container{
+        width: 79%;
+    }
+
     .sacrifice-details{
+        margin: 1rem 3.5rem 1rem 3.5rem;
+    }
+
+    .testimonial-details{
         margin: 1rem 3.5rem 1rem 3.5rem;
     }
 }
@@ -308,7 +381,18 @@ i.fa:hover{
         margin-top: 2rem;
     }
 
+    .testimonial-container{
+        width: 79%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
     .sacrifice-details{
+        margin: 1rem 3.8rem 0.4rem 3.8rem;
+
+    }
+
+    .testimonial-details{
         margin: 1rem 3.8rem 0.4rem 3.8rem;
 
     }
@@ -321,6 +405,13 @@ i.fa:hover{
     }
 
     .sacrifice-container{
+        width: 100%;
+        background: none;
+        margin-top: 5rem;
+        box-shadow: none;
+    }
+
+    .testimonial-container{
         width: 100%;
         background: none;
         margin-top: 5rem;
@@ -424,7 +515,7 @@ i.fa:hover{
     }
 
 
-    .testnet-details2, .sacrifice-details{
+    .testnet-details2, .sacrifice-details, .testimonial-details{
         padding: 0rem 0.001rem 0rem 0.001rem;
     }
 
