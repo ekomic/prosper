@@ -23,6 +23,11 @@ header{
     box-shadow: 0 12px 25px #0003;
 }
 
+.nav-items.active{
+    color: #fff;
+    font-size: 0.987rem;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
