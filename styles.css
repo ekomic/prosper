@@ -11,7 +11,7 @@ body, html{
     font-family: 'Poppins', Sans-serif;
     font-weight: 400;
     background-color: #111;
-    transition: 2s ease-in-out all;
+    scroll-behavior: smooth;
 }
 
 
@@ -21,6 +21,11 @@ header{
     background:rgb(17, 17, 17, 0.99);
     position: fixed;
     box-shadow: 0 12px 25px #0003;
+}
+
+.nav-items.active{
+    color: #fff;
+    font-size: 0.987rem;
 }
 
 nav{
@@ -78,6 +83,7 @@ font-weight: 600;
 
 .header-icons{
     display: flex;
+    margin-right: 2rem;
 }
 
 i.fa{
@@ -94,7 +100,8 @@ i.fa:hover{
 /* MAIN BODY STYLES */
 
 .pulse-body{
-    width: 58%;
+    /* width: 58%; */
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -104,6 +111,7 @@ i.fa:hover{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     color: #ffffff;
     letter-spacing: 10;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,23 +129,36 @@ i.fa:hover{
 .testnet-details{
     margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
-    font-weight: 400;
-    line-height: 1.4;
+    font-size: 0.989rem;
 }
 
 .testnet-details2{
-    padding: 0rem 0.5rem 0rem 0.5rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
-    line-height: 1.5;
+    font-size: 0.989rem;
 }
 
 .testnet-details ~ p{
     margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
+    font-size: 0.989rem;
     line-height: 1.5;
+}
+
+.testnet-header{
+    font-size: 2rem;
+}
+
+.testnet-details{
+    margin: 1rem 3.5rem;
+    text-align: left;
+    font-size: 0.989rem;
+}
+
+.testnet-details ~ p{
+    text-align: left;
+    margin: 1rem 3.5rem 0.4rem 3.5rem;
+    font-size: 0.989rem;
 }
 
 .testnet-card{
@@ -145,7 +166,7 @@ i.fa:hover{
     justify-content: flex-start;
     margin-top: 1.7rem;
     margin-bottom: 2rem;
-    width: 28rem;
+    width: 29rem;
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
@@ -159,7 +180,11 @@ i.fa:hover{
 }
 
 .net-name{
+
     font-size: 1rem;
+
+    font-size: 1.1rem;
+    font-weight: 400;
     margin-bottom: 0.5rem;
 
 }
@@ -196,7 +221,7 @@ i.fa:hover{
 
 
 .sacrifice-container{
-    width: 58%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -215,7 +240,7 @@ i.fa:hover{
 }
 
 .sacrifice-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem;
     font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
@@ -226,7 +251,7 @@ i.fa:hover{
 /* TESTIMONIAL STYLES */
 
 .testimonial-container{
-    width: 58%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -246,7 +271,7 @@ i.fa:hover{
 }
 
 .testimonial-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem;
     font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
@@ -275,7 +300,19 @@ i.fa:hover{
     bottom: 0;
     width: 100%;
    border-radius: 0.8rem;
+    font-size: 1rem;
+}
 
+.net-link{
+    color: #4cbcfd;
+    margin-top: 2rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.net-link:hover{
+    color: #83a9e0;
 }
 
 /* RESPONSIVENESS */
@@ -336,7 +373,7 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 37.2rem;
+        width: 31.2rem;
     }
 
 
@@ -369,11 +406,11 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 30.9rem;
+        width: 27.9rem;
     }
 
     .testnet-details2{
-        margin: 1rem 2.8rem 1rem 2.8rem;
+        margin: 1rem 2rem 1rem 2rem;
     }
 
     .sacrifice-container{
@@ -461,7 +498,11 @@ i.fa:hover{
         word-break: break-all;
     }
     .testnet-card{
-        width: 30rem;
+        width: 25rem;
+    }
+
+      .sacrifice-details, .testimonial-details{
+    margin: 1rem 2.5rem 1rem 2.5rem;
     }
 }
 
@@ -483,18 +524,11 @@ i.fa:hover{
         word-break: break-all;
     }
 
-    .testnet-details, .testnet-details ~ p{
-        padding: 0rem 0.5rem 0rem 0.5rem;
+    .testnet-details2, .testnet-details ~ p, .sacrifice-details{
+        margin: 0rem 0.5rem 0rem 0.5rem;
 
     }
 
-    .testnet-details2{
-        padding: 0rem 0.5rem 0rem 0.5rem;
-    }
-
-    .sacrifice-details{
-    margin: 1rem 3.2rem 1rem 3.2rem;
-    }
 }
 
 @media (max-width: 360px){
@@ -517,7 +551,7 @@ i.fa:hover{
 
 
     .testnet-details2, .sacrifice-details, .testimonial-details{
-        padding: 0rem 0.001rem 0rem 0.001rem;
+        margin: 0rem 0.2rem 0rem 0.2rem;
     }
 
 }
