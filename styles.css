@@ -83,6 +83,7 @@ font-weight: 600;
 
 .header-icons{
     display: flex;
+    margin-right: 2rem;
 }
 
 i.fa{
@@ -100,6 +101,7 @@ i.fa:hover{
 
 .pulse-body{
     width: 58%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -109,6 +111,7 @@ i.fa:hover{
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
     color: #ffffff;
     letter-spacing: 10;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,23 +129,36 @@ i.fa:hover{
 .testnet-details{
     margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
-    font-weight: 400;
-    line-height: 1.4;
+    font-size: 0.989rem;
 }
 
 .testnet-details2{
-    padding: 0rem 0.5rem 0rem 0.5rem;
+    margin: 1rem 3.9rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
-    line-height: 1.5;
+    font-size: 0.989rem;
 }
 
 .testnet-details ~ p{
-    margin: 1rem 3.5rem 0.5rem 3.5rem;
+    margin: 1rem 3.9rem 0.5rem 3.5rem;
     text-align: left;
-    font-size: 0.988rem;
+    font-size: 0.989rem;
     line-height: 1.5;
+}
+
+.testnet-header{
+    font-size: 2rem;
+}
+
+.testnet-details{
+    margin: 1rem 2.8rem;
+    text-align: left;
+    font-size: 0.989rem;
+}
+
+.testnet-details ~ p{
+    text-align: left;
+    margin: 1rem 2.8rem 0.4rem 2.8rem;
+    font-size: 0.989rem;
 }
 
 .testnet-card{
@@ -154,6 +170,11 @@ i.fa:hover{
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    width: 30rem;
+    background: rgba(170, 163, 163, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card-body{
@@ -164,7 +185,11 @@ i.fa:hover{
 }
 
 .net-name{
+
     font-size: 1rem;
+
+    font-size: 1.1rem;
+    font-weight: 400;
     margin-bottom: 0.5rem;
 
 }
@@ -280,7 +305,19 @@ i.fa:hover{
     bottom: 0;
     width: 100%;
    border-radius: 0.8rem;
+    font-size: 1rem;
+}
 
+.net-link{
+    color: #4cbcfd;
+    margin-top: 2rem;
+    line-height: 1.2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.net-link:hover{
+    color: #83a9e0;
 }
 
 /* RESPONSIVENESS */
