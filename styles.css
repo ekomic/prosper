@@ -100,7 +100,7 @@ i.fa:hover{
 /* MAIN BODY STYLES */
 
 .pulse-body{
-    width: 58%;
+    /* width: 58%; */
     width: 55%;
     margin: 0 auto;
 }
@@ -133,13 +133,13 @@ i.fa:hover{
 }
 
 .testnet-details2{
-    margin: 1rem 3.9rem 0.5rem 3.5rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.989rem;
 }
 
 .testnet-details ~ p{
-    margin: 1rem 3.9rem 0.5rem 3.5rem;
+    margin: 1rem 3.5rem 0.5rem 3.5rem;
     text-align: left;
     font-size: 0.989rem;
     line-height: 1.5;
@@ -150,14 +150,14 @@ i.fa:hover{
 }
 
 .testnet-details{
-    margin: 1rem 2.8rem;
+    margin: 1rem 3.5rem;
     text-align: left;
     font-size: 0.989rem;
 }
 
 .testnet-details ~ p{
     text-align: left;
-    margin: 1rem 2.8rem 0.4rem 2.8rem;
+    margin: 1rem 3.5rem 0.4rem 3.5rem;
     font-size: 0.989rem;
 }
 
@@ -166,15 +166,10 @@ i.fa:hover{
     justify-content: flex-start;
     margin-top: 1.7rem;
     margin-bottom: 2rem;
-    width: 28rem;
+    width: 29rem;
     background: rgba(170, 163, 163, 0.087);
     border-radius: 8px;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    margin-top: 2rem;
-    width: 30rem;
-    background: rgba(170, 163, 163, 0.2);
-    border-radius: 8px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
 }
 
 .card-body{
@@ -226,7 +221,7 @@ i.fa:hover{
 
 
 .sacrifice-container{
-    width: 58%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -245,7 +240,7 @@ i.fa:hover{
 }
 
 .sacrifice-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem;
     font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
@@ -256,7 +251,7 @@ i.fa:hover{
 /* TESTIMONIAL STYLES */
 
 .testimonial-container{
-    width: 58%;
+    width: 55%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -276,7 +271,7 @@ i.fa:hover{
 }
 
 .testimonial-details{
-    margin: 1rem 3rem;
+    margin: 1rem 3.5rem;
     font-size: 0.989rem;
     color: #fff;
     font-weight: 500;
@@ -378,7 +373,7 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 37.2rem;
+        width: 31.2rem;
     }
 
 
@@ -411,11 +406,11 @@ i.fa:hover{
         display: flex;
         justify-content: flex-start;
         margin-top: 2rem;
-        width: 30.9rem;
+        width: 27.9rem;
     }
 
     .testnet-details2{
-        margin: 1rem 2.8rem 1rem 2.8rem;
+        margin: 1rem 2rem 1rem 2rem;
     }
 
     .sacrifice-container{
@@ -503,7 +498,11 @@ i.fa:hover{
         word-break: break-all;
     }
     .testnet-card{
-        width: 30rem;
+        width: 25rem;
+    }
+
+      .sacrifice-details, .testimonial-details{
+    margin: 1rem 2.5rem 1rem 2.5rem;
     }
 }
 
@@ -525,18 +524,11 @@ i.fa:hover{
         word-break: break-all;
     }
 
-    .testnet-details, .testnet-details ~ p{
-        padding: 0rem 0.5rem 0rem 0.5rem;
+    .testnet-details2, .testnet-details ~ p, .sacrifice-details{
+        margin: 0rem 0.5rem 0rem 0.5rem;
 
     }
 
-    .testnet-details2{
-        padding: 0rem 0.5rem 0rem 0.5rem;
-    }
-
-    .sacrifice-details{
-    margin: 1rem 3.2rem 1rem 3.2rem;
-    }
 }
 
 @media (max-width: 360px){
@@ -559,7 +551,7 @@ i.fa:hover{
 
 
     .testnet-details2, .sacrifice-details, .testimonial-details{
-        padding: 0rem 0.001rem 0rem 0.001rem;
+        margin: 0rem 0.2rem 0rem 0.2rem;
     }
 
 }
