@@ -303,6 +303,25 @@ i.fa:hover{
     font-size: 1rem;
 }
 
+.comment-container{
+    width: 55%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.7rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(210deg, #00eaff 0%, #0080ff 25%, #8000ff 50%, #e619e6 75%, #f00 100%);
+}
+
+.comment{
+    margin: 1rem 3.5rem;
+    color: white;
+    text-align: left;
+}
+
 .net-link{
     color: #4cbcfd;
     margin-top: 2rem;
@@ -381,16 +400,16 @@ i.fa:hover{
         width: 79%;
     }
 
-    .testimonial-container{
+    .testimonial-container, .comment-container{
         width: 79%;
     }
 
-    .sacrifice-details{
-        margin: 1rem 3.5rem 1rem 3.5rem;
+    .sacrifice-details, .testnet-details, .testnet-details ~ p, .comment{
+        margin: 1rem 4.4rem 1rem 4.4rem;
     }
 
-    .testimonial-details{
-        margin: 1rem 3.5rem 1rem 3.5rem;
+    .testimonial-details, .testnet-details2{
+        margin: 1rem 4.4rem 1rem 4.4rem;
     }
 }
 
@@ -425,6 +444,8 @@ i.fa:hover{
         margin-top: 2rem;
     }
 
+
+
     .sacrifice-details{
         margin: 1rem 3.8rem 0.4rem 3.8rem;
 
@@ -443,38 +464,40 @@ i.fa:hover{
     }
 
     .sacrifice-container{
-        width: 100%;
+        width: none;
         background: none;
         margin-top: 5rem;
         box-shadow: none;
     }
 
     .testimonial-container{
-        width: 100%;
+        width: none;
         background: none;
         margin-top: 5rem;
         box-shadow: none;
     }
 
     .testnet-container{
+        width: none;
         background: none;
         width: none;
         box-shadow: none;
     }
     
-    .testnet-details{
+    .testnet-details .sacrifice-details, .testnet-details2{
         margin: 1rem 2.8rem;
     }
     
     .testnet-details ~ p{
-        margin: 1rem 2.8rem 0.4rem 2.8rem;
+        padding: 1rem 2.8rem;
     }
 
     .net-link, .net-text{
         word-break: break-all;
     }
 
-    .testnet-card{
+
+    .testnet-card, .comment-container{
         width: 33.2rem;
     }
 }
@@ -524,9 +547,16 @@ i.fa:hover{
         word-break: break-all;
     }
 
-    .testnet-details2, .testnet-details ~ p, .sacrifice-details{
-        margin: 0rem 0.5rem 0rem 0.5rem;
+    .comment-container{
+        width: 100%;
+    }
 
+    .comment{
+        margin: 2.9rem 3.4rem  2rem 3.4rem;
+    }
+
+    .testnet-details2, .testnet-details ~ p, .sacrifice-details, .testimonial-details{
+        margin: 0rem 0.5rem 0rem 0.5rem;
     }
 
 }
